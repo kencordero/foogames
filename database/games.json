@@ -5,7 +5,7 @@
         "developer": "Nintendo",
         "tags" : ["platformer"],
         "published" : 1990,
-        "cover" : ""
+        "cover" : "//upload.wikimedia.org/wikipedia/en/a/a5/Super_Mario_Bros._3_coverart.png"
     },
     "The Legend of Zelda: Ocarina of Time": {
         "id" : 1,
@@ -13,7 +13,7 @@
         "developer": "Nintendo",
         "tags" : ["adventure", "action"],
         "published" : 1998,
-        "cover" : ""
+        "cover" : "//upload.wikimedia.org/wikipedia/en/8/8e/The_Legend_of_Zelda_Ocarina_of_Time_box_art.png"
     },
     "Metroid Prime": {
         "id" : 2,
@@ -21,7 +21,7 @@
         "developer": "Retro Studios",
         "tags" : ["first person", "adventure", "Metroidvania"],
         "published" : 2002,
-        "cover" : "https://upload.wikimedia.org/wikipedia/en/b/ba/MetroidPrimebox.jpg"
+        "cover" : "//upload.wikimedia.org/wikipedia/en/b/ba/MetroidPrimebox.jpg"
     },
     "The Elder Scrolls III: Morrowind": {
         "id": 3,
@@ -29,6 +29,6 @@
         "developer": "Bethesda",
         "tags": ["RPG"],
         "published": 2003,
-        "cover": ""
+        "cover": "//upload.wikimedia.org/wikipedia/en/5/53/MorrowindCOVER.jpg"
     }
 }
