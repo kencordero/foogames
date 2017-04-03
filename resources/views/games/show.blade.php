@@ -1,27 +1,25 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Show Game</title>
-	<meta charset='utf-8'>
-    <link href="/css/foobooks.css" type='text/css' rel='stylesheet'>
-</head>
-<body>
+@extends('layouts.master')
 
-	<header>
-		<img  src='http://making-the-internet.s3.amazonaws.com/laravel-foobooks-logo@2x.png'
-          style='width:300px'
-          alt='Foobooks Logo'>
-	</header>
 
-	<section>
-	    <h1>Show game: {{ $title }}</h1>
-	</section>
+@section('title')
+    Show game
+@endsection
 
-	<footer>
-		&copy; {{ date('Y') }}
-	</footer>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+@push('head')
+    <link href="/css/games/show.css" rel='stylesheet'>
+@endpush
 
-</body>
-</html>
+
+@section('content')
+    @if($title)
+        <h1>Show game: {{ $title }}</h1>
+    @else
+        <h1>No game chosen</h1>
+    @endif
+@endsection
+
+
+@push('body')
+    <script src="/js/games/show.js"></script>
+@endpush
