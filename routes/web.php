@@ -11,9 +11,18 @@
 |
 */
 
-Route::get('games/tetris', function() {
+Route::get('/games/tetris', function() {
     return 'Tetris is the bestis!';
-}); 
+});
+
+Route::get('/games/{title}', function($title = '') {
+    if ($title == '') {
+      return 'Your request did not include a title.';
+    }
+    else {
+      return 'Results for the book: '.$title;
+    }
+});
 
 Route::get('/', function () {
     return view('welcome');
