@@ -10,24 +10,16 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/', 'MainController@index');
 
-Route::get('/games/tetris', function() {
-    return 'Tetris is the bestis!';
-});
+Route::get('/books', 'BookController@index');
+Route::get('/books/{title}', 'BookController@get');
 
-Route::get('/games/{title}', function($title = '') {
-    if ($title == '') {
-      return 'Your request did not include a title.';
-    }
-    else {
-      return 'Results for the book: '.$title;
-    }
-});
+Route::get('/games', 'GameController@index');
+Route::get('/games/{title}', 'GameController@get');
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/movies' 'MovieController@index');
+Route::get('/movies/{title}', 'MovieController@get');
 
-Route::get('/games', function() {
-    return view('games');
-});
+Route::get('/music', 'MusicController@index');
+Route::get('/music/{title}', 'MusicController@get');
