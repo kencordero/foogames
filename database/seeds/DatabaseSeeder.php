@@ -19,6 +19,7 @@ class DatabaseSeeder extends Seeder
 
         $this->call(MovieSeeder::class);
 
-        $this->call(MusicSeeder::class);
+        $this->call(ArtistSeeder::class);
+        $this->call(AlbumSeeder::class);
     }
 }

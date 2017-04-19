@@ -17,6 +17,7 @@ class CreateMusicTable extends Migration
             $table->increments('id');
             $table->timestamps();
             $table->string('title');
+            $table->string('artist');
             $table->integer('year_released');
             $table->string('cover_image_url')->nullable();
         });

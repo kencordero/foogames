@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use App\Movie;
 
 class MovieSeeder extends Seeder
 {
@@ -11,6 +12,25 @@ class MovieSeeder extends Seeder
      */
     public function run()
     {
-        //
+        Movie::insert([
+            'created_at' => Carbon\Carbon::now()->toDateTimeString();
+            'title' => 'The Godfather';
+            'director' => 'Francis Ford Coppola';
+            'year_released' => 1971;
+        ]);
+
+        Movie::insert([
+            'created_at' => Carbon\Carbon::now()->toDateTimeString();
+            'title' => 'Raiders of the Lost Ark';
+            'director' => 'Steven Spielberg';
+            'year_released' => 1981;
+        ]);
+
+        Movie::insert([
+            'created_at' => Carbon\Carbon::now()->toDateTimeString();
+            'title' => 'Star Wars';
+            'director' => 'George Lucas';
+            'year_released' => 1977;
+        ]);
     }
 }
