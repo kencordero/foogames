@@ -1,8 +1,9 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use App\Platform;
 
-class BookSeeder extends Seeder
+class AuthorSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -11,11 +12,10 @@ class BookSeeder extends Seeder
      */
     public function run()
     {
-        Book::insert([
+        Author::insert([
             'created_at' => Carbon\Carbon::now()->toDateTimeString(),
-            'title' => 'A Moveable Feast',
-            'author' => 'Ernest Hemingway',
-            'year_published' => 1964,
+            'firstName' => 'Ernest',
+            'lastName' => 'Hemingway',
         ]);
     }
 }

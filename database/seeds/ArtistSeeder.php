@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class MusicSeeder extends Seeder
+class ArtistSeeder extends Seeder
 {
     /**
      * Run the database seeds.
