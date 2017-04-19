@@ -16,10 +16,14 @@ Route::get('/books', 'BookController@index');
 Route::get('/books/{title}', 'BookController@get');
 
 Route::get('/games', 'GameController@index');
-Route::get('/games/{title}', 'GameController@get');
+Route::get('/games/platforms', 'GameController@getPlatforms');
+Route::get('/games/{title}', 'GameController@getGame');
 
 Route::get('/movies', 'MovieController@index');
 Route::get('/movies/{title}', 'MovieController@get');
 
 Route::get('/music', 'MusicController@index');
-Route::get('/music/{title}', 'MusicController@get');
+Route::get('/music/artists', 'MusicController@getArtists');
+Route::get('/music/albums', 'MusicController@getAlbum');
+Route::get('/music/artists/{name}', 'MusicController@getArtist');
+Route::get('/music/albums/{title}', 'MusicController@getAlbum');
