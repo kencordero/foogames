@@ -16,7 +16,6 @@ class CreateMusicTable extends Migration
         Schema::create('albums', function(Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
-
             $table->string('title');
             $table->integer('year_released');
             $table->string('cover_image_url')->nullable();
@@ -25,8 +24,8 @@ class CreateMusicTable extends Migration
         Schema::create('artists', function(Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
-
             $table->string('name');
+            $table->string('sortName')->nullable();
         });
     }
 

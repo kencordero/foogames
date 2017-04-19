@@ -16,11 +16,17 @@ class CreateBooksTable extends Migration
         Schema::create('books', function(Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
-
             $table->string('title');
             $table->string('author');
             $table->integer('year_published');
             $table->string('image_url')->nullable();
+        });
+
+        Schema::create('authors', function(Blueprint $table) {
+            $table->increments('id');
+            $table->timestamps();
+            $table->string('firstName');
+            $table->string('lastName');
         });
     }
 
@@ -32,5 +38,6 @@ class CreateBooksTable extends Migration
     public function down()
     {
         Schema::drop('books');
+        Schema::drop('authors');
     }
 }
