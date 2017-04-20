@@ -12,10 +12,14 @@ class AuthorSeeder extends Seeder
      */
     public function run()
     {
-        Author::insert([
-            'created_at' => Carbon\Carbon::now()->toDateTimeString(),
-            'firstName' => 'Ernest',
-            'lastName' => 'Hemingway',
+        Author::create([
+            'first_name' => 'Ernest',
+            'last_name' => 'Hemingway',
+        ]);
+
+        Author::create([
+            'first_name' => 'Albert',
+            'last_name' => 'Camus',
         ]);
     }
 }

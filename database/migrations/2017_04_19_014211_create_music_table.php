@@ -26,7 +26,7 @@ class CreateMusicTable extends Migration
             $table->increments('id');
             $table->timestamps();
             $table->string('name');
-            $table->string('sortName')->nullable();
+            $table->string('sort_name')->nullable();
         });
     }
 

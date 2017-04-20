@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App/Artist;
+use App\Artist;
 
 class ArtistSeeder extends Seeder
 {
@@ -12,22 +12,20 @@ class ArtistSeeder extends Seeder
      */
     public function run()
     {
-        Artist::insert([
-            'created_at' => Carbon\Carbon::now()->toDateTimeString(),
+        Artist::create([
             'name' => 'The Beach Boys',
-            'sortName' => 'Beach Boys, The',
+            'sort_name' => 'Beach Boys, The',
         ]);
 
-        Artist::insert([
-            'created_at' => Carbon\Carbon::now()->toDateTimeString(),
+        Artist::create([
             'name' => 'The Beatles',
-            'sortName' => 'Beatles, The',
+            'sort_name' => 'Beatles, The',
         ]);
 
-        Artist::insert([
-            'created_at' => Carbon\Carbon::now()->toDateTimeString(),
+        Artist::create([
+            'created_at' => date("Y-m-d H:i:s"),
             'name' => 'Bob Dylan',
-            'sortName' => 'Dylan, Bob',
+            'sort_name' => 'Dylan, Bob',
         ]);
 
 

@@ -12,92 +12,79 @@ class PlatformSeeder extends Seeder
      */
     public function run()
     {
-        Platform::insert([
-            'created_at' => Carbon\Carbon::now()->toDateTimeString(),
+        Platform::create([
             'name' => 'Nintendo',
             'make' => 'Nintendo',
             'year_released' => 1985,
         ]);
 
-        Platform::insert([
-            'created_at' => Carbon\Carbon::now()->toDateTimeString(),
+        Platform::create([
             'name' => 'Windows',
             'make' => 'Microsoft',
             'year_released' => 1985,
-        ])
+        ]);
 
-        Platform::insert([
-            'created_at' => Carbon\Carbon::now()->toDateTimeString(),
+        Platform::create([
             'name' => 'Super Nintendo',
             'make' => 'Nintendo',
             'year_released' => 1991,
         ]);
 
-        Platform::insert([
-            'created_at' => Carbon\Carbon::now()->toDateTimeString(),
+        Platform::create([
             'name' => 'PlayStation',
             'make' => 'Sony',
             'year_released' => 1994,
         ]);
 
-        Platform::insert([
-            'created_at' => Carbon\Carbon::now()->toDateTimeString(),
+        Platform::create([
             'name' => 'Nintendo 64',
             'make' => 'Nintendo',
             'year_released' => 1995,
         ]);
 
-        Platform::insert([
-            'created_at' => Carbon\Carbon::now()->toDateTimeString(),
+        Platform::create([
             'name' => 'PlayStation 2',
             'make' => 'Sony',
             'year_released' => 2000,
         ]);
 
-        Platform::insert([
-            'created_at' => Carbon\Carbon::now()->toDateTimeString(),
+        Platform::create([
             'name' => 'XBOX',
             'make' => 'Microsoft',
             'year_released' => 2001,
         ]);
 
-        Platform::insert([
-            'created_at' => Carbon\Carbon::now()->toDateTimeString(),
+        Platform::create([
             'name' => 'GameCube',
             'make' => 'Nintendo',
             'year_released' => 2001,
         ]);
 
-        Platform::insert([
-            'created_at' => Carbon\Carbon::now()->toDateTimeString(),
+        Platform::create([
             'name' => 'XBOX 360',
             'make' => 'Microsoft',
             'year_released' => 2005,
         ]);
 
-        Platform::insert([
-            'created_at' => Carbon\Carbon::now()->toDateTimeString(),
+        Platform::create([
             'name' => 'PlayStation 3',
             'make' => 'Sony',
             'year_released' => 2006,
         ]);
 
-        Platform::insert([
-            'created_at' => Carbon\Carbon::now()->toDateTimeString(),
+        Platform::create([
             'name' => 'Wii',
             'make' => 'Nintendo',
             'year_released' => 2006,
         ]);
 
-        Platform::insert([
-            'created_at' => Carbon\Carbon::now()->toDateTimeString(),
+        Platform::create([
             'name' => 'iOS',
             'make' => 'Apple',
             'year_released' => 2007,
         ]);
 
-        Platform::insert([
-            'created_at' => Carbon\Carbon::now()->toDateTimeString(),
+        Platform::create([
             'name' => 'Android',
             'make' => 'Google',
             'year_released' => 2008,
