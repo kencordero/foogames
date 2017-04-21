@@ -12,34 +12,14 @@ class MovieSeeder extends Seeder
      */
     public function run()
     {
-        Movie::create([
-           'title' => 'Casablanca',
-            'director' => 'Michael Curtiz',
-            'year_released' => 1942,
-        ]);
+        $movies = json_decode(file_get_contents(database_path().'/seedData/movies.json'), True);
 
-        Movie::create([
-            'title' => 'Citizen Kane',
-            'director' => 'Orson Welles',
-            'year_released' => 1941,
-        ]);
-
-        Movie::create([
-            'title' => 'The Godfather',
-            'director' => 'Francis Ford Coppola',
-            'year_released' => 1971,
-        ]);
-
-        Movie::create([
-            'title' => 'Raiders of the Lost Ark',
-            'director' => 'Steven Spielberg',
-            'year_released' => 1981,
-        ]);
-
-        Movie::create([
-            'title' => 'Star Wars',
-            'director' => 'George Lucas',
-            'year_released' => 1977,
-        ]);
+        foreach ($movies as $title => $movie) {
+            Movie::create([
+               'title' => $title,
+                'director' => $movie['director'],
+                'year_released' => $movie['year_released'],
+            ]);
+        }
     }
 }

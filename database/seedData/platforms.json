@@ -1,0 +1,54 @@
+{
+    "Nintendo": {
+        "make" : "Nintendo",
+        "year_released" : 1985
+    },
+    "Windows": {
+        "make" : "Microsoft",
+        "year_released" : 1985
+    },
+    "Super Nintendo": {
+        "make" : "Nintendo",
+        "year_released" : 1991
+    },
+    "PlayStation": {
+        "make" : "Sony",
+        "year_released" : 1994
+    },
+    "Nintendo 64": {
+        "make" : "Nintendo",
+        "year_released" : 1995
+    },
+    "PlayStation 2": {
+        "make" : "Sony",
+        "year_released" : 2000
+    },
+    "XBOX": {
+        "make" : "Microsoft",
+        "year_released" : 2001
+    },
+    "GameCube": {
+        "make" : "Nintendo",
+        "year_released" : 2001
+    },
+    "XBOX 360": {
+        "make" : "Microsoft",
+        "year_released" : 2005
+    },
+    "PlayStation 3": {
+        "make" : "Sony",
+        "year_released" : 2006
+    },
+    "Wii": {
+        "make" : "Nintendo",
+        "year_released" : 2006
+    },
+    "iOS": {
+        "make" : "Apple",
+        "year_released" : 2007
+    },
+    "Android": {
+        "make" : "Google",
+        "year_released" : 2008
+    }
+}

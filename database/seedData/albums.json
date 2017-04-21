@@ -1,0 +1,62 @@
+{
+    "Abbey Road": {
+        "artist": "The Beatles",
+        "year_released": 1969
+    },
+    "The Beatles": {
+        "artist": "The Beatles",
+        "year_released": 1968
+    },
+    "Blonde on Blonde": {
+        "artist": "Bob Dylan",
+        "year_released": 1966
+    },
+    "Blood on the Tracks": {
+        "artist": "Bob Dylan",
+        "year_released": 1975
+    },
+    "Exile on Main Street": {
+        "artist": "The Rolling Stones",
+        "year_released": 1972
+    },
+    "Highway 61 Revisited": {
+        "artist": "Bob Dylan",
+        "year_released": 1965
+    },
+    "London Calling": {
+        "artist": "The Clash",
+        "year_released": 1980
+    },
+    "Nevermind": {
+        "artist": "Nirvana",
+        "year_released": 1991
+    },
+    "Pet Sounds": {
+        "artist": "The Beach Boys",
+        "year_released": 1966
+    },
+    "Revolver": {
+        "artist": "The Beatles",
+        "year_released": 1966
+    },
+    "Rubber Soul": {
+        "artist": "The Beatles",
+        "year_released": 1965
+    },
+    "Sgt. Pepper's Lonely Hearts Club Band": {
+        "artist": "The Beatles",
+        "year_released": 1967
+    },
+    "Thriller": {
+        "artist": "Michael Jackson",
+        "year_released": 1982
+    },
+    "What's Going On": {
+        "artist": "Marvin Gaye",
+        "year_released": 1971
+    },
+    "Yankee Hotel Foxtrot": {
+        "artist": "Wilco",
+        "year_released": 2002
+    }
+}

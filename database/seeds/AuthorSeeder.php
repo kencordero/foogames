@@ -12,14 +12,13 @@ class AuthorSeeder extends Seeder
      */
     public function run()
     {
-        Author::create([
-            'first_name' => 'Ernest',
-            'last_name' => 'Hemingway',
-        ]);
+        $authors = json_decode(file_get_contents(database_path().'/seedData/authors.json'), True);
 
-        Author::create([
-            'first_name' => 'Albert',
-            'last_name' => 'Camus',
-        ]);
+        $foreach ($authors as $author) {
+            Author::create([
+                'first_name' => $author['first_name'],
+                'last_name' => $author['last_name'],
+            ]);
+        }
     }
 }

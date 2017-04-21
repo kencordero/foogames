@@ -1,0 +1,22 @@
+{
+    "Casablanca": {
+        "director" : "Michael Curtiz",
+        "year_released" : 1942
+    },
+    "Citizen Kane": {
+        "director" : "Orson Welles",
+        "year_released" : 1941
+    },
+    "The Godfather": {
+        "director" : "Francis Ford Coppola",
+        "year_released" : 1971
+    },
+    "Raiders of the Lost Ark": {
+        "director" : "Steven Spielberg",
+        "year_released" : 1981
+    },
+    "Star Wars": {
+        "director" : "George Lucas",
+        "year_released" : 1977
+    }
+}

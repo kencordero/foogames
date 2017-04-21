@@ -12,34 +12,14 @@ class GameSeeder extends Seeder
      */
     public function run()
     {
-        Game::create([
-            'title' => 'The Elder Scrolls III: Morrowind',
-            'year_released' => 2002,
-        ]);
+        $games = json_decode(file_get_contents(database_path().'/seedData/games.json'), True);
 
-        Game::create([
-            'title' => 'Final Fantasy VII',
-            'year_released' => 1997,
-        ]);
-
-        Game::create([
-            'title' => 'Grand Theft Auto IV',
-            'year_released' => 2008
-        ]);
-
-        Game::create([
-            'title' => 'The Legend of Zelda: Ocarina of Time',
-            'year_released' => 1998,
-        ]);
-
-        Game::create([
-            'title' => 'Metroid Prime',
-            'year_released' => 2002,
-        ]);
-
-        Game::create([
-            'title' => 'Super Mario Bros. 3',
-            'year_released' => 1990,
-        ]);
+        foreach ($games as $title => $game) {
+            Game::create([
+                'title' => $title,
+                'year_released' => $game['released'],
+                'image_url' => $game['cover'],
+            ]);
+        }
     }
 }

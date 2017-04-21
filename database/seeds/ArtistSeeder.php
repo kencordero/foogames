@@ -12,22 +12,13 @@ class ArtistSeeder extends Seeder
      */
     public function run()
     {
-        Artist::create([
-            'name' => 'The Beach Boys',
-            'sort_name' => 'Beach Boys, The',
-        ]);
+        $artists = json_decode(file_get_contents(database_path().'/seedData/artists.json'), True);
 
-        Artist::create([
-            'name' => 'The Beatles',
-            'sort_name' => 'Beatles, The',
-        ]);
-
-        Artist::create([
-            'created_at' => date("Y-m-d H:i:s"),
-            'name' => 'Bob Dylan',
-            'sort_name' => 'Dylan, Bob',
-        ]);
-
-
+        foreach ($artists as $name => $artist) {
+            Artists::create([
+                'name' => $name,
+                'sort_name' => $artist['sort_name'],
+            ]);
+        }
     }
 }
