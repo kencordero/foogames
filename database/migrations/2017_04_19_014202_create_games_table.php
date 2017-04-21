@@ -17,7 +17,9 @@ class CreateGamesTable extends Migration
              $table->increments('id');
              $table->timestamps();
              $table->string('title');
-             $table->integer('year_released');
+             $table->string('publisher')->nullable();
+             $table->string('developer')->nullable();
+             $table->integer('year_released')->nullable();
              $table->string('image_url')->nullable();
         });
 

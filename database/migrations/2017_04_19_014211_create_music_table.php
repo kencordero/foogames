@@ -18,8 +18,8 @@ class CreateMusicTable extends Migration
             $table->timestamps();
             $table->string('title');
             $table->string('artist');
-            $table->string('record_label');
-            $table->integer('year_released');
+            $table->string('record_label')->nullable();
+            $table->integer('year_released')->nullable();
             $table->string('cover_image_url')->nullable();
         });
 
