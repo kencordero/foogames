@@ -19,6 +19,10 @@
         "make": "Nintendo",
         "year_released": 1995
     },
+    "Blizzard App": {
+        "make": "Blizzard",
+        "year_released": 1996
+    },
     "PlayStation 2": {
         "make": "Sony",
         "year_released": 2000
@@ -47,13 +51,19 @@
         "make": "Nintendo",
         "year_released": 2006
     },
-    "iOS": {
+    "App Store": {
         "make": "Apple",
         "year_released": 2007
     },
-    "Android": {
+    "Google Play": {
         "make": "Google",
         "year_released": 2008
+    },
+    "Amazon Appstore": {
+        "make": "Amazon"
+    },
+    "Humble Bundle": {
+        "make": "Humble Bundle"
     },
     "GOG.com": {
         "make": "CD Projekt",
