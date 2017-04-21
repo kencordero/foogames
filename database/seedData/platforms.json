@@ -1,54 +1,70 @@
 {
     "Nintendo": {
-        "make" : "Nintendo",
-        "year_released" : 1985
+        "make": "Nintendo",
+        "year_released": 1985
     },
     "Windows": {
-        "make" : "Microsoft",
-        "year_released" : 1985
+        "make": "Microsoft",
+        "year_released": 1985
     },
     "Super Nintendo": {
-        "make" : "Nintendo",
-        "year_released" : 1991
+        "make": "Nintendo",
+        "year_released": 1991
     },
     "PlayStation": {
-        "make" : "Sony",
-        "year_released" : 1994
+        "make": "Sony",
+        "year_released": 1994
     },
     "Nintendo 64": {
-        "make" : "Nintendo",
-        "year_released" : 1995
+        "make": "Nintendo",
+        "year_released": 1995
     },
     "PlayStation 2": {
-        "make" : "Sony",
-        "year_released" : 2000
+        "make": "Sony",
+        "year_released": 2000
     },
-    "XBOX": {
-        "make" : "Microsoft",
-        "year_released" : 2001
+    "Xbox": {
+        "make": "Microsoft",
+        "year_released": 2001
     },
     "GameCube": {
-        "make" : "Nintendo",
-        "year_released" : 2001
+        "make": "Nintendo",
+        "year_released": 2001
     },
-    "XBOX 360": {
-        "make" : "Microsoft",
-        "year_released" : 2005
+    "Steam": {
+        "make": "Valve",
+        "year_released": 2003
+    },
+    "Xbox 360": {
+        "make": "Microsoft",
+        "year_released": 2005
     },
     "PlayStation 3": {
-        "make" : "Sony",
-        "year_released" : 2006
+        "make": "Sony",
+        "year_released": 2006
     },
     "Wii": {
-        "make" : "Nintendo",
-        "year_released" : 2006
+        "make": "Nintendo",
+        "year_released": 2006
     },
     "iOS": {
-        "make" : "Apple",
-        "year_released" : 2007
+        "make": "Apple",
+        "year_released": 2007
     },
     "Android": {
-        "make" : "Google",
-        "year_released" : 2008
+        "make": "Google",
+        "year_released": 2008
+    },
+    "GOG.com": {
+        "make": "CD Projekt",
+        "year_released": 2008
+    },
+    "Origin": {
+        "make": "Electronic Arts",
+        "year_released": 2011
+    },
+    "Uplay": {
+        "make": "Ubisoft",
+        "year_released": 2012
     }
 }

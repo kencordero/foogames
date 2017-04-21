@@ -1,18 +1,18 @@
 {
     "The Corrections": {
-        "author" : "Jonathan Franzen",
-        "year_published" : 2001
+        "author": "Jonathan Franzen",
+        "year_published": 2001
     },
     "The Great Gatsby": {
-        "author" : "F. Scott Fitzgerald",
-        "year_published" : 1925
+        "author": "F. Scott Fitzgerald",
+        "year_published": 1925
     },
     "A Moveable Feast": {
-        "author" : "Ernest Hemingway",
-        "year_published" : 1964
+        "author": "Ernest Hemingway",
+        "year_published": 1964
     },
     "The Road": {
-        "author" : "Cormac McCarthy",
-        "year_published" : 2006
+        "author": "Cormac McCarthy",
+        "year_published": 2006
     }
 }
