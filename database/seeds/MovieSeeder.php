@@ -13,6 +13,18 @@ class MovieSeeder extends Seeder
     public function run()
     {
         Movie::create([
+           'title' => 'Casablanca',
+            'director' => 'Michael Curtiz',
+            'year_released' => 1942,
+        ]);
+
+        Movie::create([
+            'title' => 'Citizen Kane',
+            'director' => 'Orson Welles',
+            'year_released' => 1941,
+        ]);
+
+        Movie::create([
             'title' => 'The Godfather',
             'director' => 'Francis Ford Coppola',
             'year_released' => 1971,
