@@ -1,22 +1,27 @@
 {
     "Casablanca": {
         "director": "Michael Curtiz",
-        "year_released": 1942
+        "year_released": 1942,
+        "image_url": "//upload.wikimedia.org/wikipedia/commons/b/b3/CasablancaPoster-Gold.jpg"
     },
     "Citizen Kane": {
         "director": "Orson Welles",
-        "year_released": 1941
+        "year_released": 1941,
+        "image_url": "//upload.wikimedia.org/wikipedia/en/c/ce/Citizenkane.jpg"
     },
     "The Godfather": {
         "director": "Francis Ford Coppola",
-        "year_released": 1971
+        "year_released": 1971,
+        "image_url": "//upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg"
     },
     "Raiders of the Lost Ark": {
         "director": "Steven Spielberg",
-        "year_released": 1981
+        "year_released": 1981,
+        "image_url": "//upload.wikimedia.org/wikipedia/en/4/4c/Raiders_of_the_Lost_Ark.jpg"
     },
     "Star Wars": {
         "director": "George Lucas",
-        "year_released": 1977
+        "year_released": 1977,
+        "image_url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/694px-Star_Wars_Logo.svg.png"
     }
 }

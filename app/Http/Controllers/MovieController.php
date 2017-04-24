@@ -2,18 +2,31 @@
 
 namespace App\Http\Controllers;
 
+
 use Illuminate\Http\Request;
+use App\Movie;
 
 class MovieController extends Controller
 {
     public function index()
     {
-        return view('movies.index');
+        $movies = Movie::all();
+
+        return view('movies.index') -> with([
+            'movies' => $movies
+        ]);
     }
 
-    public function get($title = null) {
+    public function get($id = null) {
+        $movie = Movie::find($id);
+
+        if (is_null($movie)) {
+            Session::flash('message', 'Movie not found');
+            return redirect('/movies');
+        }
+
         return view('movies.get') -> with([
-            'title' => $title,
+            'movie' => $movie,
         ]);
     }
 }

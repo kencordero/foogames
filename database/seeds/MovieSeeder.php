@@ -19,6 +19,7 @@ class MovieSeeder extends Seeder
                'title' => $title,
                 'director' => $movie['director'],
                 'year_released' => $movie['year_released'],
+                'image_url' => $movie['image_url'] ?? '',
             ]);
         }
     }
