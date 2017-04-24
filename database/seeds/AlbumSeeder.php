@@ -18,7 +18,7 @@ class AlbumSeeder extends Seeder
             Album::create([
                 'title' => $title,
                 'artist' => $album['artist'],
-                'year_released' => $album['released']
+                'year_released' => $album['released'] ?? null,
             ]);
         }
     }

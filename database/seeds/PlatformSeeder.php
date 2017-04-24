@@ -18,7 +18,7 @@ class PlatformSeeder extends Seeder
             Platform::create([
                 'name' => $name,
                 'make' => $platform['make'],
-                'year_released' => $platform['year_released'],
+                'year_released' => $platform['year_released'] ?? null,
             ]);
         }
     }

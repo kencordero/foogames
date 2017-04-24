@@ -18,7 +18,7 @@ class GameSeeder extends Seeder
             Game::create([
                 'title' => $title,
                 'year_released' => $game['released'],
-                'image_url' => $game['cover'],
+                'image_url' => $game['cover'] ?? null,
             ]);
         }
     }

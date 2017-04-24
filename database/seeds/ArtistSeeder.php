@@ -15,9 +15,9 @@ class ArtistSeeder extends Seeder
         $artists = json_decode(file_get_contents(database_path().'/seedData/artists.json'), True);
 
         foreach ($artists as $name => $artist) {
-            Artists::create([
+            Artist::create([
                 'name' => $name,
-                'sort_name' => $artist['sort_name'],
+                'sort_name' => $artist['sort_name'] ?? null,
             ]);
         }
     }
