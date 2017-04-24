@@ -16,10 +16,10 @@ class MovieSeeder extends Seeder
 
         foreach ($movies as $title => $movie) {
             Movie::create([
-               'title' => $title,
-                'director' => $movie['director'],
-                'year_released' => $movie['year_released'],
-                'image_url' => $movie['image_url'] ?? '',
+                'title' => $title,
+                'director' => $movie['director'] ?? null,
+                'year_released' => $movie['year_released'] ?? null,
+                'image_url' => $movie['image_url'] ?? null,
             ]);
         }
     }

@@ -18,7 +18,8 @@ class BookSeeder extends Seeder
             Book::create([
                 'title' => $title,
                 'author' => $book['author'],
-                'year_published' => $book['year_published'],
+                'year_published' => $book['year_published'] ?? null,
+                'image_url' => $book['image_url'] ?? null,
             ]);
         }
     }

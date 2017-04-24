@@ -19,6 +19,7 @@ class PlatformSeeder extends Seeder
                 'name' => $name,
                 'make' => $platform['make'],
                 'year_released' => $platform['year_released'] ?? null,
+                'image_url' => $platform['image_url'] ?? null,
             ]);
         }
     }

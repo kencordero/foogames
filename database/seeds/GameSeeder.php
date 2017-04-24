@@ -17,8 +17,10 @@ class GameSeeder extends Seeder
         foreach ($games as $title => $game) {
             Game::create([
                 'title' => $title,
-                'year_released' => $game['released'],
-                'image_url' => $game['cover'] ?? null,
+                'publisher' => $game['publisher'] ?? null,
+                'developer' => $game['developer'] ?? null,
+                'year_released' => $game['year_released'] ?? null,
+                'image_url' => $game['image_url'] ?? null,
             ]);
         }
     }

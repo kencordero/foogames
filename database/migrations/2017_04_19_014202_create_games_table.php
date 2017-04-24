@@ -29,7 +29,7 @@ class CreateGamesTable extends Migration
             $table->string('name');
             $table->string('make');
             $table->integer('year_released')->nullable();
-            $table->string('logo_url')->nullable();
+            $table->string('image_url')->nullable();
         });
     }
 

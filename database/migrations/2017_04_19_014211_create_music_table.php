@@ -20,7 +20,7 @@ class CreateMusicTable extends Migration
             $table->string('artist');
             $table->string('record_label')->nullable();
             $table->integer('year_released')->nullable();
-            $table->string('cover_image_url')->nullable();
+            $table->string('image_url')->nullable();
         });
 
         Schema::create('artists', function(Blueprint $table) {

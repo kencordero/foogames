@@ -2,30 +2,31 @@
     "The Elder Scrolls III: Morrowind": {
         "publisher": "Bethesda",
         "developer": "Bethesda",
-        "released": 2003,
+        "year_released": 2003,
         "cover": "//upload.wikimedia.org/wikipedia/en/5/53/MorrowindCOVER.jpg"
     },
     "Final Fantasy VII": {
-        "released": 1997
+        "developer": "Squaresoft",
+        "year_released": 1997
     },
     "Grand Theft Auto IV": {
-        "released": 2008
+        "year_released": 2008
     },
     "The Legend of Zelda: Ocarina of Time": {
         "publisher": "Nintendo",
         "developer": "Nintendo",
-        "released": 1998,
+        "year_released": 1998,
         "cover": "//upload.wikimedia.org/wikipedia/en/8/8e/The_Legend_of_Zelda_Ocarina_of_Time_box_art.png"
     },
     "Metroid Prime": {
         "publisher": "Nintendo",
         "developer": "Retro Studios",
-        "released": 2002,
+        "year_released": 2002,
         "cover": "//upload.wikimedia.org/wikipedia/en/b/ba/MetroidPrimebox.jpg"
     },"Super Mario Bros. 3": {
         "publisher": "Nintendo",
         "developer": "Nintendo",
-        "released": 1990,
+        "year_released": 1990,
         "cover": "//upload.wikimedia.org/wikipedia/en/a/a5/Super_Mario_Bros._3_coverart.png"
     }
 }
