@@ -13,7 +13,7 @@ class MovieController extends Controller
         $movies = Movie::all();
 
         return view('movies.index') -> with([
-            'movies' => $movies
+            'movies' => $movies,
         ]);
     }
 

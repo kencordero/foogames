@@ -12,11 +12,13 @@
     @stack('head')
 </head>
 <body>
-	<header>
+	@if (Session::get('message') != null)
+		<div class="message">{{ Session::get('message') }}</div>
+	@endif
 
+	<header>
 		@yield('header')
 		@include('layouts.nav')
-
 	</header>
 
 	<section>
