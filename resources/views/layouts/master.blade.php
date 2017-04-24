@@ -15,14 +15,8 @@
 	<header>
 
 		@yield('header')
-		<nav>
-			<ul class="nav nav-tabs nav-justified">
-				<li><a href="/books">Books</a>
-				<li><a href="/games">Games</a>
-				<li><a href="/movies">Movies</a>
-				<li><a href="/music">Music</a>
-			</ul>
-		</nav>
+		@include('layouts.nav')
+
 	</header>
 
 	<section>
