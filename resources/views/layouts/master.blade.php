@@ -7,7 +7,7 @@
 
 	<meta charset='utf-8'>
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/foobooks.css" >
+    <link rel="stylesheet" href="/css/app.css" >
 
     @stack('head')
 </head>
