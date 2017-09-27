@@ -24,7 +24,7 @@ Route::get('/games/searchByTitle/{title}', 'GameController@searchGameByTitle');
 
 Route::get('/movies', 'MovieController@index');
 Route::get('/movies/searchByTitle/{title}', 'MovieController@searchMovieByTitle');
-Route::get('/movies/addMovie', 'MovieController@addMovie');
+Route::get('/movies/add', 'MovieController@addMovie');
 Route::get('/movies/{id}', 'MovieController@get');
 
 Route::get('/music', 'MusicController@index');

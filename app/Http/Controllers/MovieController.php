@@ -29,4 +29,8 @@ class MovieController extends Controller
             'movie' => $movie,
         ]);
     }
+
+    public function addMovie() {
+        return view('movies.add');
+    }
 }
