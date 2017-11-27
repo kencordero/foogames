@@ -15,12 +15,12 @@ Route::get('/', 'MainController@index');
 Route::get('/books', 'BookController@index');
 Route::get('/books/all', 'BookController@getAllBooks');
 Route::get('/books/authors/all', 'BookController@getAllAuthors');
-Route::get('/books/searchByTitle/{title}', 'BookController@searchBookByTitle');
+Route::get('/books/searchByTitle/{title}', 'BookController@searchByTitle');
 
 Route::get('/games', 'GameController@index');
 Route::get('/games/all', 'GameController@getAllGames');
 Route::get('/games/platforms', 'GameController@getAllPlatforms');
-Route::get('/games/searchByTitle/{title}', 'GameController@searchGameByTitle');
+Route::get('/games/searchByTitle/{title}', 'GameController@searchByTitle');
 
 Route::get('/movies', 'MovieController@index');
 Route::get('/movies/searchByTitle/{title}', 'MovieController@searchByTitle');
