@@ -23,8 +23,9 @@ Route::get('/games/platforms', 'GameController@getAllPlatforms');
 Route::get('/games/searchByTitle/{title}', 'GameController@searchGameByTitle');
 
 Route::get('/movies', 'MovieController@index');
-Route::get('/movies/searchByTitle/{title}', 'MovieController@searchMovieByTitle');
-Route::get('/movies/add', 'MovieController@addMovie');
+Route::get('/movies/searchByTitle/{title}', 'MovieController@searchByTitle');
+Route::get('/movies/new', 'MovieController@new');
+Route::post('/movies/add', 'MovieController@add');
 Route::get('/movies/{id}', 'MovieController@get');
 
 Route::get('/music', 'MusicController@index');

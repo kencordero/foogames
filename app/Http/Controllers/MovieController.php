@@ -30,7 +30,11 @@ class MovieController extends Controller
         ]);
     }
 
-    public function addMovie() {
+    public function new() {
+        return view('movies.new');
+    }
+
+    public function add() {
         return view('movies.add');
     }
 }
